@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #989dee;
+    color: #161C47;
+
+}
+
+.titulo-destaque{
+    color: rgb(85, 28, 219);
+}
+
+.apresentacao{
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentacao__conteudo{
+    width: 800px;
+    display: flex; 
+    flex-direction: column;
+    gap: 40px; 
+
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 54px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+} 
+
+
+.apresentacao__conteudo__paragrafo{
+    font-size: 25px;
+    font-family:  "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+strong {
+    color: rgb(21, 121, 112);
+
+
+}
+
+.apresentacao__links{
+display: flex;
+justify-content: space-between;
+
+}
+
+.apresentacao__links__link{
+    background-color: rgb(114, 77, 201);
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 25px;
+    padding: 15px 0;
+    text-decoration: 0;
+    color: black;
+    font-family:  "Roboto", sans-serif;
+    font-weight: 700;
+
+
+
+}
